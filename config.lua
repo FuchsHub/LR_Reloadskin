@@ -5,6 +5,7 @@ Config.Locale = 'en' -- en -> English, de -> Deutsch , fr -> Français, it -> It
 Config.Commandname = "reloadskin" -- Your Command
 Config.Heal = true --Should the player be healed when he executes the command ?
 Config.Notify = true --Should a Notify come on execution ?
+Config.NewEsx = true --Use New Esx over 1.8.5
 
 
 Translation = {
@@ -33,6 +34,6 @@ Translation = {
 }
 
 function SendTextMessage(msg)
---[[ 	exports['okokNotify']:Alert('L&R Modification', msg, 5000, 'info') ]]
+--[[ 	exports['okokNotify']:Alert('L&R Modification', msg, 5000, 'info') ]]-
     ESX.ShowNotification(msg )
 end
