@@ -34,6 +34,6 @@ Translation = {
 }
 
 function SendTextMessage(msg)
---[[ 	exports['okokNotify']:Alert('L&R Modification', msg, 5000, 'info') ]]-
-    ESX.ShowNotification(msg )
+--[[ 	exports['okokNotify']:Alert('L&R Modification', msg, 5000, 'info') ]]
+    ESX.ShowNotification(msg)
 end
